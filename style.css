@@ -165,3 +165,16 @@ h1{
 .songlistplay{
     padding: 0;
 }
+footer.bottom1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Optional: If you want to center the icons within the footer */
+footer.bottom1 .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
